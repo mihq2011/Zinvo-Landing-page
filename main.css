@@ -15,10 +15,11 @@
     margin: 0 70px;
   }
   
-  nav a {
-    color: white;
+  nav a { 
     text-decoration: none;
-    font-size: 12px;
+    font-size: 16px;
+    color: #FFFFFF;
+    letter-spacing: 3.5px;
     padding: 0 10px;
     display: inline;
   }
@@ -26,7 +27,8 @@
   nav .nav-left {
     flex: 35%;
     text-align: left;
-    
+    word-spacing: 20px;
+    display: contents;
   }
   
   nav .nav-middle {
@@ -37,6 +39,7 @@
   
   nav .nav-right {
     flex: 20%;
+    text-align: right;
   }
   
   nav .logo {
@@ -129,7 +132,10 @@
   
   footer h3{
     text-transform: uppercase;
-    font-size: 13px;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 2.6;
+    white-space:nowrap;
   }
   
   footer .links img {
@@ -157,16 +163,17 @@ footer .line {
   
   footer li a {
     color: white;
-    font-size: 12px;
+    font-size: 14px;
     text-decoration: none;
     padding-top: 3px;
+    letter-spacing: 0;
   }
   
   footer .input-links {
     color: #fff;
     width: 35%;
     float: right;
-    
+    padding-left: 30px;
   }
 
 footer .input-links p {
