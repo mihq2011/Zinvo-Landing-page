@@ -29,6 +29,7 @@
     text-align: left;
     word-spacing: 20px;
     display: contents;
+    white-space: nowrap;
   }
   
   nav .nav-middle {
