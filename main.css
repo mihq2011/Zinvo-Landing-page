@@ -10,15 +10,15 @@ background: black;
 
 nav {
   background: black;
-  padding: 10px 0 0 0;
+  padding: 5px 45px 5px 0;
   display: flex;
-  max-width: 1300px;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
 nav a { 
   text-decoration: none;
-  font-size: 16px;
+  font-size: 14px;
   color: #FFFFFF;
   letter-spacing: 3.5px;
   padding: 10px;
@@ -26,7 +26,6 @@ nav a {
 }
 
 nav .nav-left {
-  flex: 35%;
   text-align: left;
   word-spacing: 20px;
   display: contents;
@@ -40,8 +39,6 @@ nav .nav-middle {
 }
 
 nav .nav-right {
-  flex: 20%;
-  text-align: right;
   display: contents;
   white-space: nowrap;
 }
@@ -188,7 +185,7 @@ footer .input-links input {
   border: solid 1px white;
   height: 35px;
   float: right;
-  width: auto;
+  width: 310px;
   background: black;
   color: white;
   
@@ -250,8 +247,7 @@ color: white;
   background: black;
   font-size: 12px;
   text-align: right;
-  padding: 0px 0px 35px 0px;
-  max-width: 350px;
+  padding: 0px 62px 35px 0px;
   margin: 0 auto;
   
   }
