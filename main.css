@@ -249,7 +249,9 @@ color: white;
 .footer-bottom .footer-copyrights {
   background: black;
   font-size: 12px;
-  text-align: center;
-  padding: 0 0px 35px 0;
+  text-align: right;
+  padding: 0px 0px 35px 0px;
+  max-width: 350px;
+  margin: 0 auto;
   
   }
