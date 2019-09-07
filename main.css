@@ -4,6 +4,60 @@
   padding: 0;
 }
 
+      /* MIDSIZES */
+@media only screen and (max-width:960px){
+
+  footer .links {
+    width: 30%;
+  }
+
+  footer .shop-links {
+    width: 23%;
+  }
+
+  footer .explore-links {
+    width: 20%;
+  }
+
+  footer .service-links {
+    width: 27%;
+  }
+
+  footer .input-links {
+    width: 100%!important;
+    padding: 40px 0 0 0!important;
+  }
+}
+      /* MOBILE */
+@media only screen and (max-width:600px){
+
+  footer .links {
+    width: 100%;
+  }
+
+  footer .shop-links {
+    width: 100%;
+  }
+
+  footer .explore-links {
+    width: 100%;
+  }
+
+  footer .service-links {
+    width: 100%;
+  }
+
+  footer .input-links {
+    width: 100%!important;
+    padding: 10px 0 0 0!important;
+  }
+
+  .footer-bottom .footer-copyrights {
+    padding: 15px 15px 5px 0px!important;
+    float: right!important;
+  }
+}
+
 .nav-wrapper {
 background: black;
 }
@@ -140,7 +194,7 @@ footer h3{
 }
 
 footer .links img {
-  width: 40%;
+  width: 60px;
   height: 40px;
 }
 
@@ -215,8 +269,10 @@ footer .input-links input[name="submit"] {
 }
 
 .footer-bottom  {
-background: black;
-color: white;
+  background: black;
+  color: white;
+  width: 100%;
+  height: 50px;
 
 }
 
