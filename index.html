@@ -25,9 +25,17 @@
     </div>
     <div class="nav-right">
       <a href="#">LOG IN</a>
-    <a href="#">CART</a>
+      <a href="#">CART</a>
+      <i class="fas fa-bars" id="nav-btn"></i>
     </div>
   </nav>
+  <ul class="mobile" id="active">
+    <li><a href="">SHOP</a></li>
+    <li><a href="">EXPLORE</a></li>
+    <li><a href="">REVIEW</a></li>
+    <li><a href="">LOG IN</a></li>
+    <li><a href="">CART</a></li>  
+  </ul>
   </div>
   
   <!-- UPPER PART -->
@@ -120,7 +128,17 @@
       </div> 
         <div class="footer-copyrights">2019 ZINVO</div>
     </div>
-  
+  <script>  
+   
+    var menuBtn = document.getElementById('nav-btn');
+    var active = document.getElementById('active');
+
+    menuBtn.addEventListener('click', function() {
+      active.classList.toggle('active')
+    });
+     
+
+  </script>
   
   
 </body>
