@@ -358,8 +358,6 @@ footer .input-links input[name="submit"] {
 .footer-bottom .footer-copyrights {
   background: black;
   font-size: 12px;
-  text-align: right;
-  padding: 0px 73px 35px 0px;
-  margin: 0 auto;
+  display: none;
   
   }
